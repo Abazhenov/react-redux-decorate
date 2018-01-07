@@ -1,11 +1,15 @@
 {
   "name": "react-redux-decorate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "decorators for react-redux",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup src/index.js --output.format umd --name \"react-redux-decorate\" --output.file dist/index.js"
   },
   "author": "Alexei Bazhenov",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react-redux": "^5.0.6"
+  }
 }
