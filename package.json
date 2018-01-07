@@ -1,6 +1,6 @@
 {
   "name": "react-redux-decorate",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "decorators for react-redux",
   "main": "dist/index.js",
   "scripts": {

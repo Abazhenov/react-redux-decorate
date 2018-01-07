@@ -1,6 +1,6 @@
 A Collection of decorators to make using `connect` easier.
 
-##Installaion
+##Installation
 `npm install react-redux-decorate`
 
 ## Example
@@ -21,10 +21,10 @@ export default class MyFancyComponent extends React.Component {
 }
 ```
 
-## Api
--`mapStateToProps(mapStateToProps (Function), [options] (Object))`
+## Usage
+`mapStateToProps(mapStateToProps (Function), [options] (Object))`
 
--`mapDispatchToProps(mapDispatchToProps(Function), [options] (Object))`
+`mapDispatchToProps(mapDispatchToProps(Function), [options] (Object))`
 
 `fn` and `options` follow the [react-redux-api for connect](https://github.com/reactjs/react-redux/blob/master/docs/api.md#api)
 
