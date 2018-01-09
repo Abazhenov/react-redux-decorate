@@ -1,6 +1,6 @@
 A Collection of decorators to make using `connect` easier.
 
-##Installation
+## Installation
 `npm install react-redux-decorate`
 
 ## Example
