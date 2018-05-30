@@ -1,11 +1,16 @@
 {
   "name": "react-redux-decorate",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "decorators for react-redux",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup src/index.js --output.format umd --name \"react-redux-decorate\" --output.file dist/index.js"
+    "build":
+      "rollup src/index.js --output.format umd --name \"react-redux-decorate\" --output.file dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abazhenov/react-redux-decorate.git"
   },
   "author": "Alexei Bazhenov",
   "license": "ISC",
